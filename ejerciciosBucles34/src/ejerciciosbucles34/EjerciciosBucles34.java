@@ -23,9 +23,11 @@ public class EjerciciosBucles34 {
              
              
          }else{
+             System.out.println("la tabla de multiplicar del numero:" + numero   );
              for( int i=1; i<13; i++){
-                tablaMultiplicar=numero*i; 
-                 System.out.println("la tabla de multiplicar del numero "  + numero + " x " + i + "es " + tablaMultiplicar);
+                tablaMultiplicar=numero*i;
+                 
+                 System.out.println( numero + " x " + i + " es " + tablaMultiplicar);
              }
              }
          
